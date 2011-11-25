@@ -1,0 +1,335 @@
+/* 
+Theme URI: http://www.fernandoval.es/mylifeboard
+Description: Design and front-developing for Swifto nline public site
+Version: Beta
+By: Quelinka - http://www.quelinka.com
+Author: Fernando Val - aaromnido (@aaromnido - fernando.val@quelinka.com)
+
+Contents:
+A. Boostrap Extend.
+0. Boostrap init
+1. Colours
+2. Typography
+3. Links
+4. Layout
+5. Skin
+6. Messages
+7. Gauges
+10. Testing
+*/
+/************** A. Bootstrap Extended ******************************************************************/
+.voffset-10 {
+  height: 10px;
+}
+.voffset-20 {
+  height: 20px;
+}
+.voffset-30 {
+  height: 30px;
+}
+.voffset-40 {
+  height: 40px;
+}
+.voffset-50 {
+  height: 50px;
+}
+.voffset-60 {
+  height: 60px;
+}
+.voffset-70 {
+  height: 70px;
+}
+.voffset-80 {
+  height: 80px;
+}
+.voffset-90 {
+  height: 90px;
+}
+.voffset-100 {
+  height: 100px;
+}
+.voffset-120 {
+  height: 120px;
+}
+.voffset-140 {
+  height: 140px;
+}
+.voffset-160 {
+  height: 160px;
+}
+.voffset-180 {
+  height: 180px;
+}
+.voffset-200 {
+  height: 200px;
+}
+.voffset-250 {
+  height: 250px;
+}
+.voffset-300 {
+  height: 300px;
+}
+.voffset-350 {
+  height: 350px;
+}
+.voffset-400 {
+  height: 400px;
+}
+.voffset-500 {
+  height: 500px;
+}
+/************** 0. Bootstrap Init ******************************************************************/
+/************** 10. Testing - Wireframing ******************************************************************/
+/************** 10. Testing - Wireframing ******************************************************************/
+body {
+  background: #f2f1eb;
+  background-image: url(../images/body-bg.png);
+  font-family: Georgia;
+  color: #2f2f2f;
+  font-size: 15px;
+}
+a {
+  color: #cb413f;
+}
+a:hover {
+  color: #cb413f;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.clear {
+  width: 100%;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  background-color: yellow;
+}
+.absolute {
+  position: absolute;
+}
+#supercontainer {
+  background-image: url(../images/supercontainer-bg.png);
+  background-position: left 144px;
+  background-repeat: repeat-x;
+  min-height: 500px;
+}
+.container {
+  min-height: 2000px;
+  background-image: url(../images/container-bg.png);
+  background-position: center 600px;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+header .logo {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#secondary-logo {
+  margin: 0 0 0 170px;
+}
+header .logo a:hover {
+  opacity: 0.8;
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+.page {
+  min-height: 700px;
+  position: relative;
+}
+#claim {
+  display: block;
+  width: 412px;
+  height: 180px;
+  background-image: url(../images/claim-bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  font-size: 1px;
+  color: #cb413f;
+  text-indent: -2000px;
+  overflow: hidden;
+}
+date {
+  display: block;
+  width: 425px;
+  height: 85px;
+  background-image: url(../images/date-bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+date h5 {
+  color: #f2f1eb;
+  font-family: Arial Black, Arial;
+  font-size: 18px;
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  line-height: 85px;
+}
+.negative {
+  color: #f2f1eb;
+  text-shadow: 2px 1px 1px #222;
+}
+.negative p {
+  font-size: 14px;
+  font-style: italic;
+}
+.subasteros {
+  margin-top: 10px;
+}
+.subastador {
+  left: 118px;
+  top: 240px;
+}
+.subastador:hover {
+  cursor: pointer;
+  -moz-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+}
+.bocadillo {
+  left: 230px;
+  top: 120px;
+}
+.flecha {
+  left: 595px;
+  top: 450px;
+}
+a:hover .flecha {
+  opacity: 0.9;
+}
+.flecha-2 {
+  left: 565px;
+  top: 590px;
+  -moz-transform: rotate(-52deg);
+  -webkit-transform: rotate(-52deg);
+  -o-transform: rotate(-52deg);
+  transform: rotate(-52deg);
+}
+.flecha-3 {
+  left: 455px;
+  top: 520px;
+  -moz-transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+  -o-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+.product {
+  background-color: #ffffff;
+  border-bottom: 3px dotted #cb413f;
+  min-height: 150px;
+  margin-bottom: 15px;
+}
+.product figure {
+  margin: 0;
+  width: 130px;
+  float: left;
+}
+.product img {
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.product div {
+  width: 66%;
+  float: right;
+}
+.product header {
+  background-color: #cb413f;
+  float: left;
+  padding: 0;
+}
+.product h4 {
+  font-family: Arial Black, Arial;
+  padding: 0 0 0 5px;
+  color: #f2f1eb;
+  line-height: 1.6em;
+}
+.product p {
+  float: left;
+  padding-top: 5px;
+  font-style: italic;
+}
+header h3 {
+  font-family: Arial Black, Arial;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#section-3 header h3 {
+  margin-bottom: 20px;
+}
+header h3 strong {
+  font-size: 70px;
+}
+.logos-patrocinadores {
+  text-align: center;
+}
+.logos-patrocinadores a img {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: inline;
+}
+footer {
+  font-family: Arial Black, Arial;
+  background-image: url(../images/footer-bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 140px;
+}
+footer section {
+  margin: 20px 0 0 20px;
+}
+footer h5 {
+  color: #f2f1eb;
+  margin-left: 20px;
+}
+footer a {
+  margin-left: 20px;
+}
+#th1 {
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#th2 {
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(3deg);
+}
+#th3 {
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+#th4 {
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+#th5 {
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#th6 {
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
