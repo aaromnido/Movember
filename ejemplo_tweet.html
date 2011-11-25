@@ -1,0 +1,99 @@
+<!--
+<style type="text/css">
+	.tb{
+		border: 1px solid red;
+		display: none;
+	}
+</style>
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="#hashtagProducto" data-count="vertical" data-via="cachiruloValley" data-lang="es">HashtagProducto</a>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+-->
+
+<!--
+    <style type="text/css" media="screen">
+
+      #custom-tweet-button a {
+        display: block;
+        padding: 2px 5px 2px 20px;
+        background: url('http://a4.twimg.com/images/favicon.ico') 1px center no-repeat;
+        border: 1px solid #ccc;
+      }
+
+    </style>
+
+     
+
+    <div id="custom-tweet-button">
+
+        <a href="https://twitter.com/share" class="twitter-share-button"
+
+      data-url="https://dev.twitter.com/pages/tweet_button"
+
+      data-via="your_screen_name"
+
+      data-text="Checking out this page about Tweet Buttons"
+
+      data-related="anywhere:The Javascript API"
+
+      data-count="horizontal">Tweet</a>
+
+    </div>
+
+-->
+
+    <style type="text/css" media="screen">
+
+      #custom-tweet-button a {
+
+        display: block;
+
+        padding: 2px 5px 2px 20px;
+
+        background: url('http://a4.twimg.com/images/favicon.ico') 1px center no-repeat;
+
+        border: 1px solid #ccc;
+
+      }
+
+    </style>
+
+     
+
+    <div id="custom-tweet-button">
+
+      <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A8888%2Fmovember_template%2Fejemplo_tweet.html&source=tweetbutton&text=%23hashtagProducto&url=http%3A%2F%2Flocalhost%3A8888%2Fmovember_template%2Fejemplo_tweet.html&via=cachiruloValley" target="_blank">#hashtagProducto</a>
+
+    </div>
+
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#MovemberZGZ',
+  interval: 30000,
+  title: 'Cachirulo Valley',
+  subject: 'Subasta Movember Zaragoza',
+  width: 350,
+  height: 400,
+  theme: {
+    shell: {
+      background: '#2f2f2f',
+      color: '#f2f1eb'
+    },
+    tweets: {
+      background: '#f2f1eb',
+      color: '#2f2f2f',
+      links: '#cb413f'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+
