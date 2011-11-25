@@ -45,16 +45,27 @@ $(document).ready(function() {
 	
 	});
 
+	// Hashtags declarations
+	tweetHashtag('product1', 'hastagProducto1');
+	tweetHashtag('product2', 'hastagProducto2');
+	tweetHashtag('product3', 'hastagProducto3');
+	tweetHashtag('product4', 'hastagProducto4');
+	tweetHashtag('product5', 'hastagProducto5');
+	tweetHashtag('product6', 'hastagProducto6');
 
-
-	/* Por desarrollar funcion aleatoria para los thumbnails girados */
-	/*
-	var rango_superior = 10;
-	var rango_inferior = 5;
-	var aleatorio = Math.floor(Math.random()*(rango_superior-(rango_inferior-1))) + rango_inferior;
-	console.log(aleatorio);
-	*/
-	
 	
 
 });
+
+/* Hashtags dinamic printing function */
+function tweetHashtag(target, tag){
+
+	var target = target,
+	tag = tag,
+	path = "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A8888%2Fmovember_template%2Fejemplo_tweet.html&source=tweetbutton&text=%23MovemberZGZ, pujo por %23" + tag + "&url=http%3A%2F%2Flocalhost%3A8888%2Fmovember_template%2Fejemplo_tweet.html&via=cachiruloValley";
+	
+	// Print the complete URL
+	$("." + target + " a").attr("href", path);
+	
+}
+

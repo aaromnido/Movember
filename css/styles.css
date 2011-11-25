@@ -223,7 +223,7 @@ a:hover .flecha {
   transform: rotate(140deg);
 }
 .product {
-  background-color: #ffffff;
+  background-color: rgba(250, 250, 250, 0.75);
   border-bottom: 3px dotted #cb413f;
   min-height: 150px;
   margin-bottom: 15px;
@@ -246,15 +246,17 @@ a:hover .flecha {
   float: right;
 }
 .product header {
-  background-color: #cb413f;
   float: left;
   padding: 0;
+  width: 100%;
 }
 .product h4 {
+  background-color: #2f2f2f;
   font-family: Arial Black, Arial;
-  padding: 0 0 0 5px;
+  padding: 2px 5px 2px 5px;
   color: #f2f1eb;
   line-height: 1.6em;
+  display: inline;
 }
 .product p {
   float: left;
@@ -332,4 +334,17 @@ footer a {
   -webkit-transform: rotate(7deg);
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
+}
+.btn.puja {
+  border: 1px solid #cb413f;
+  background-image: linear-gradient(bottom, #cb413f 30%, #ff4a4a 88%);
+  background-image: -o-linear-gradient(bottom, #cb413f 30%, #ff4a4a 88%);
+  background-image: -moz-linear-gradient(bottom, #cb413f 30%, #ff4a4a 88%);
+  background-image: -webkit-linear-gradient(bottom, #cb413f 30%, #ff4a4a 88%);
+  background-image: -ms-linear-gradient(bottom, #cb413f 30%, #ff4a4a 88%);
+  color: #f2f1eb;
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-right: 10px;
 }
