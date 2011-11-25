@@ -115,7 +115,7 @@ header .logo{
 #secondary-logo{
 	margin: 0 0 0 170px;
 }
-header .logo a:hover{
+header .logo a:hover, .logos-patrocinadores a:hover{
 	opacity: 0.8;
 	-moz-transform: rotate(2deg);
 	-webkit-transform: rotate(2deg);
@@ -196,21 +196,25 @@ a:hover .flecha {
 	opacity: 0.9;
 }
 .flecha-2{
-	left: 565px;
-	top: 590px;
-	-moz-transform: rotate(-52deg);
-	-webkit-transform: rotate(-52deg);
-	-o-transform: rotate(-52deg);
-	transform: rotate(-52deg);
+	left: 575px;
+	top: 620px;
+	-moz-transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+}
+.flecha-2-b{
+	left: 485px;
 }
 .flecha-3{
-	left: 455px;
-	top: 520px;
-	-moz-transform: rotate(140deg);
+	left: 325px;
+	top: 550px;
+	-moz-transform: rotate(-160deg);
 	-webkit-transform: rotate(140deg);
 	-o-transform: rotate(140deg);
 	transform: rotate(140deg);
 }
+
 .product{
 	background-color: @blanco_75;
 	border-bottom: 3px dotted @rojo;
@@ -226,9 +230,9 @@ a:hover .flecha {
 	border: 1px solid @gris;
 	padding: 5px;
 	background-color: @blanco;
--webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
--moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
 }
 .product div{
 	width: 66%;
@@ -326,14 +330,54 @@ footer a{
 }
 .btn.puja{
 	border: 1px solid @rojo;
-background-image: linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
-background-image: -o-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
-background-image: -moz-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
-background-image: -webkit-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
-background-image: -ms-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
+	background-image: linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
+	background-image: -o-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
+	background-image: -moz-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
+	background-image: -webkit-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
+	background-image: -ms-linear-gradient(bottom, rgb(203,65,63) 30%, rgb(255,74,74) 88%);
 	color: @crema;
 	font-family: @typography_2;
 	font-weight: bold;
 	border-radius: 100px;
 	margin-right: 10px;
+}
+#section-2 header{
+	margin-bottom: 40px;
+}
+#section-2 .left-side iframe{
+	margin-top: 20px;
+	border: 1px solid @gris;
+	padding: 10px;
+	background-color: @blanco;
+}
+#twitter-feed{
+	width: 335px;
+	-moz-transform: rotate(-1.5deg);
+	-webkit-transform: rotate(-1.5deg);
+	-o-transform: rotate(-1.5deg);
+	transform: rotate(-1.5deg);
+	line-height: 85px;	
+}
+#section-2 .left-side iframe, #twitter-feed{
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+#section-2 h5{
+	font-family: @typography_3;
+	font-size: 1.6em;	
+}
+#section-2 p{
+	font-size: 1.1em;	
+	font-style: italic;
+	line-height: 1.3em;
+}
+.logos-patrocinadores a{
+	-moz-transform: rotate(-1deg);
+	-webkit-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+}
+#section-4 h3{
+	margin-bottom: 40px;
 }
