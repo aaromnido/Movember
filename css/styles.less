@@ -71,10 +71,13 @@ body{
 	background-image: url(../images/body-bg.png);
 	font-family: Georgia;
 	color: @negro;
-	font-size: 15px;
+	font-size: 14px;
 }
 a{
 	color: @rojo;
+}
+.left-side a{
+	border-bottom: 1px dotted @rojo;
 }
 a:hover{
 	color: @rojo;
@@ -83,11 +86,10 @@ a:hover{
 }
 .clear{
 	width: 100%;
-	height: 10px;
+	height: 1px;
 	margin: 0;
 	padding: 0;
 	clear: both;
-	background-color: yellow;
 }
 .absolute{
 	position: absolute;
@@ -125,6 +127,15 @@ header .logo a:hover, .logos-patrocinadores a:hover{
 .page{
 	min-height: 700px;
 	position: relative;
+}
+#section-1{
+	min-height: 600px;
+}
+#section-2{
+	min-height: 1380px;
+}
+#section-3{
+	min-height: 800px;
 }
 #claim{
 	display: block;
@@ -164,12 +175,24 @@ date h5{
 }
 .negative{
 	color: @crema;
-	text-shadow: 2px 1px 1px #222;
+	text-shadow: 0px 1px 1px #222;
 }
 .negative p{
-	font-size: 14px;
+	font-size: 15px;
 	font-style: italic;
+	line-height: 1.4em;
 }
+.negative a{
+	color: @blanco;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 1px dotted @blanco;
+}
+.negative h3{
+	font-size: 18px;
+	text-shadow: 0px 1px 1px #222 !important;
+}
+
 .subasteros{
 	margin-top: 10px;
 }
@@ -196,18 +219,22 @@ a:hover .flecha {
 	opacity: 0.9;
 }
 .flecha-2{
-	left: 575px;
-	top: 620px;
-	-moz-transform: rotate(-40deg);
-	-webkit-transform: rotate(-40deg);
-	-o-transform: rotate(-40deg);
-	transform: rotate(-40deg);
+	left: 435px;
+	top: 1240px;
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
 }
 .flecha-2-b{
-	left: 485px;
-}
+	left: 345px;
+	top: 630px;
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);}
 .flecha-3{
-	left: 325px;
+	left: 300px;
 	top: 550px;
 	-moz-transform: rotate(-160deg);
 	-webkit-transform: rotate(140deg);
@@ -220,6 +247,18 @@ a:hover .flecha {
 	border-bottom: 3px dotted @rojo;
 	min-height: 150px;
 	margin-bottom: 15px;
+}
+.product.bigotudo{
+	border-bottom: none;
+	min-height: 180px;
+	margin-top: 20px;
+}
+.product.bigotudo figure{
+	margin-left: 20px;
+}
+.product.bigotudo h5{
+	margin-bottom: -45px;
+	margin-top: -5px;
 }
 .product figure{
 	margin: 0;
@@ -380,4 +419,13 @@ footer a{
 }
 #section-4 h3{
 	margin-bottom: 40px;
+}
+.bigotudo.dani{
+	margin-left: 20px;
+}
+.bigotudo.bonilla{
+	min-height: 230px;
+}
+.bigotudo figure{
+	margin: 30px 0 0 0;
 }
