@@ -46,12 +46,10 @@ $(document).ready(function() {
 	});
 
 	// Hashtags declarations
-	tweetHashtag('product1', 'hastagProducto1');
-	tweetHashtag('product2', 'hastagProducto2');
-	tweetHashtag('product3', 'hastagProducto3');
-	tweetHashtag('product4', 'hastagProducto4');
-	tweetHashtag('product5', 'hastagProducto5');
-	tweetHashtag('product6', 'hastagProducto6');
+	tweetHashtag('product1', 'gourmet');
+	tweetHashtag('product2', 'curvas');
+	tweetHashtag('product3', 'espallargas');
+	tweetHashtag('product4', 'vinoAylon');
 
 	
 
