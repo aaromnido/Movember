@@ -154,14 +154,14 @@ header .logo a:hover, .logos-patrocinadores a:hover {
   display: block;
   width: 412px;
   height: 180px;
-  background-image: url(../images/claim-bg.png);
+  /*background-image: url(../images/claim-bg.png);
   background-position: left top;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   margin-top: 50px;
-  font-size: 1px;
-  color: #cb413f;
-  text-indent: -2000px;
-  overflow: hidden;
+  font-size: 50px;
+  color: #fff;
+  /*text-indent: -2000px;*/
+  
 }
 date {
   display: block;
