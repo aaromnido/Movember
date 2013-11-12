@@ -260,8 +260,9 @@ a:hover .flecha {
 }
 .product.bigotudo {
   border-bottom: none;
-  min-height: 180px;
+  min-height: 280px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 .product.bigotudo figure {
   margin-left: 20px;
