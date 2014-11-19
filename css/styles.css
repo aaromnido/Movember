@@ -113,10 +113,8 @@ a:hover {
   background-image: url(../images/supercontainer-bg.png);
   background-position: left 144px;
   background-repeat: repeat-x;
-  min-height: 500px;
 }
 .container {
-  min-height: 2000px;
   background-image: url(../images/container-bg.png);
   background-position: center 600px;
   background-repeat: no-repeat;
@@ -138,18 +136,9 @@ header .logo a:hover, .logos-patrocinadores a:hover {
   transform: rotate(2deg);
 }
 .page {
-  min-height: 700px;
   position: relative;
 }
-#section-1 {
-  min-height: 600px;
-}
-#section-2 {
-  min-height: 1380px;
-}
-#section-3 {
-  min-height: 800px;
-}
+
 #claim {
   display: block;
   width: 412px;
