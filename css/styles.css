@@ -397,6 +397,9 @@ footer a {
   transform: rotate(-1.5deg);
   line-height: 85px;
 }
+#section-2{
+  margin-top: 120px;
+}
 #section-2 .left-side iframe, #twitter-feed {
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
